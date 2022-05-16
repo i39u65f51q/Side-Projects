@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex justify-center items-center h-screen;
+}
+#root {
+  @apply border-2 border-slate-500 p-2 w-1/4 min-w-min;
+}
